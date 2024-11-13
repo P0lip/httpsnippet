@@ -4,6 +4,7 @@ import { availableTargets } from '../httpsnippet.js';
 import { c } from './c/target.js';
 import { clojure } from './clojure/target.js';
 import { csharp } from './csharp/target.js';
+import { dart } from './dart/target.js';
 import { go } from './go/target.js';
 import { http } from './http/target.js';
 import { java } from './java/target.js';
@@ -64,6 +65,7 @@ export const targets = {
   c,
   clojure,
   csharp,
+  dart,
   go,
   http,
   java,
